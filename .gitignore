@@ -1,0 +1,55 @@
+# Large data / experiment files
+*.root
+./MainSchool/data/JetClass_example_100k.root
+MainSchool/data/
+MainSchool/Exercises/figures/
+PreSchool/data/
+PreSchool/Exercise/exercise_4_3_state_dict.pt
+*.csv
+*.parquet
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pickle
+
+# Local Python environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+
+# Jupyter / notebook artifacts
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
+
+# ML training artifacts
+checkpoints/
+wandb/
+mlruns/
+*.pt
+*.pth
+*.ckpt
+*.log
+
+# Generated outputs
+figures/
+**/figures/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
